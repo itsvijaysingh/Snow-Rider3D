@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Snow Rider 3D Unblocked - Play Online</title>
+    <meta name="description" content="Play Snow Rider 3D online. Unblocked and ready for action!">
+    <meta name="theme-color" content="#007ACC">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/SnowRider3D-gd-1.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+</head>
+<body style="overflow:hidden;padding:0px;margin:0px;">
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    </div>
+</body>
+</html>
